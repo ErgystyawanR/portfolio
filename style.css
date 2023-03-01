@@ -1,4 +1,49 @@
+section {
+    padding-top: 128px;
+}
+
 .navbar {
     background-color: rgb(245, 244, 244);
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.20);
+}
+
+.imgergy {
+    border-radius: 50%;
+}
+
+.home h3{
+    font-size: 40px;
+}
+
+.home h4{
+    font-size: 60px;
+}
+
+.btn {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    border: 3px solid black;
+    background-color: rgb(222, 222, 222);
+}
+
+.home .arrow img{
+    width: 60px;
+}
+
+#arrow{
+    animation: upDown 1s infinite;
+}
+
+@keyframes upDown {
+    0%{
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(16px);
+    }
+    
 }
