@@ -19,6 +19,10 @@ section {
     font-size: 60px;
 }
 
+.home img{
+    width: 100%;
+}
+
 .btn {
     border: 3px solid black;
     border-radius: 10px;
@@ -145,7 +149,18 @@ section::before {
     animation: upDown 1s infinite;
 }
 
+@media only screen and (max-width: 768px) {
+    .home img {
+        width: 50%;
+    }
+}
 
+@media only screen and (max-width: 576px) {
+    section::before {
+        left: 0;
+        font-size: 60px;
+    }
+}
 
 @keyframes upDown {
     0%{
